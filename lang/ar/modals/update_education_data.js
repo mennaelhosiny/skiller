@@ -1,0 +1,22 @@
+export default  {
+  add_education_data:'اضافة بيانات للتعليم',
+  update_education_data:'تحديث بيانات التعليم',
+  school:'المدرسة او الجامعه',
+  enter_school_or_university:'المدرسة او الجامعه',
+  degree:'التقدير',
+  description:'الوصف',
+  optional:'اختياري',
+  short_description:'اكتب وصف مختصر',
+  country:'الدولة',
+  government:'المحافظة',
+  city:'المدينة',
+  start_date:'تاريخ البداية',
+  end_date:'تاريخ النهاية',
+  save:'حفظ',
+  close:'أغلاق',
+  select_best_choice:'اختر المناسب لك',
+
+  project_title:'اسم المشروع',
+  add_projects_data:'اضافة بيانات المشاريع',
+  update_projects_data:'تحديث بيانات المشاريع',
+};

@@ -1,0 +1,30 @@
+$main_color:#1093F1;
+$blue :#1093F1;
+$main_color_white_bk:#e7f4fe94;
+$main_color_more_white_bk:#e1ebf926;
+$gray:#0000008c;
+$gray_more_white:#8080800d;
+$gray_white:#eeeeee73;
+$black:#222;
+$green:#43a047;
+
+
+// fonts
+$big:40px;
+$semi_big:30px;
+$normal:18px;
+$button:15px;
+$small:12px;
+
+p{
+  font-size: $normal;
+}
+a{
+  font-size: $button !important;
+  color:$blue;
+  text-display: none;
+}
+h1{
+  font-size: $big;
+}
+

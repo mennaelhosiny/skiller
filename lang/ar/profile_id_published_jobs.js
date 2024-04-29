@@ -1,0 +1,17 @@
+export default  {
+  select_best_choice:'أختر من القائمة',
+  job_type:'نوع الوظيفة',
+  job_time:'عدد ساعات العمل',
+  filter:'بحث',
+  open:'فتح',
+  not_viewed_requests:'طلبات لم يتم رؤيتها',
+  top_best_requests:'افضل المرشحين',
+  accepted_requests:'طلبات تم الموافقة عليها',
+  rejected_requests:'طلبات تم رفضها',
+  profile_match_skills:'نسبة توافق متطلبات الوظيفة مع المتقدم',
+  job_requirement:'متطلبات الوظيفة',
+  applied_at_date:'تم التقدم  في تاريخ',
+  rate_employee:'تقييم الموظف',
+  show_resume:'عرض السيرة الذاتية',
+  delete_request:'مسح الطلب',
+};

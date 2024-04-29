@@ -1,0 +1,23 @@
+export default  {
+  edit_info:'Edit info',
+  update:'Update',
+  update_data:'Update data',
+  delete:'Delete',
+  add:'Add',
+  add_item:'Add new item',
+  visit:'Visit',
+  open:'open',
+  nearest_jobs:'Nearest jobs',
+  popular_jobs:'Popular jobs',
+  applied_jobs:'Applied jobs',
+  all_requests:'All requests',
+  in_consideration_requests:'In consideration requests',
+  accepted_requests:'Accepted requests',
+  rejected_requests:'Rejected requests',
+  in_consideration:'In consideration',
+  accepted:'Accepted',
+  rejected:'Rejected',
+  save:'Save',
+  applied_at_date:'Applied at date ',
+
+};

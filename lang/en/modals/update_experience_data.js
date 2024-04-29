@@ -1,0 +1,18 @@
+export default  {
+  add_experience_data:'Add experience data',
+  update_experience_data:'Update experience data',
+  employer:'Company',
+  enter_company_name:'Enter company name',
+  job_title:'Job title',
+  description:'Description',
+  short_description:'Write short description',
+  optional:'Optional',
+  country:'Country',
+  government:'Government',
+  city:'City',
+  start_date:'Start date',
+  end_date:'End date',
+  save:'Save',
+  close:'Close',
+  select_best_choice:'Select best choice',
+};

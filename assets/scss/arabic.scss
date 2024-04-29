@@ -1,0 +1,261 @@
+*{
+  direction: rtl;
+}
+
+// public class-----------------------
+.input-icon{
+  span:first-of-type{
+    left: 10px;
+  }
+}
+.line-hover{
+  &::before{
+    right: 0px;
+  }
+}
+.mrl-half{
+  margin-left: 5px;
+}
+.mrl-reverse-15{
+  margin-right: 15px;
+}
+
+.mrl-1{
+  margin-left: 1rem;
+}
+.mlr-1{
+  margin-right: 1rem !important;
+}
+.mrl-2{
+  margin-left: 2rem;
+}
+.mrl-3{
+  margin-left: 3rem;
+}
+.related-block{
+  margin-right: -25px;
+}
+
+.variety_data{
+  .one_variety{
+    .value{
+      span.icon:first-of-type{
+        left: 15px;
+      }
+      span.icon:last-of-type{
+        left: 40px;
+      }
+    }
+    .image{
+      .dots-action{
+        left: 5px;
+      }
+    }
+  }
+}
+
+.item-each-other{
+  span:last-of-type{
+    left: -3px;
+  }
+}
+
+
+.dynamic_tabs{
+  ul.row{
+    li{
+      &:not(:last-of-type){
+        border-left: 1px solid #dddddd;
+      }
+    }
+  }
+}
+@media (min-width:767px) and (max-width:992px) {
+  .dynamic_tabs{
+    ul.row{
+      li{
+        &:nth-of-type(3){
+          >span{
+            margin-right: 15px;
+          }
+        }
+      }
+    }
+  }
+}
+@media (max-width:767px) {
+  .dynamic_tabs{
+    ul.row{
+      li{
+        &:not(:first-of-type){
+          >span{
+            margin-right: 15px;
+          }
+        }
+      }
+    }
+  }
+}
+
+.input-related-icon{
+  input{
+    padding-right: 25px;
+  }
+}
+
+.border-side{
+  border-left: 2px solid #ddd;
+  padding-left: 15px;
+}
+
+
+// public class-----------------------
+.navbar-nav{
+  >li:not(:last-of-type){
+    margin-left: 15px;
+  }
+}
+@media (min-width: 767px) {
+  nav{
+    #navbarSupportedContent{
+      /*flex-direction: row-reverse;*/
+    }
+  }
+}
+@media (max-width: 767px) {
+  nav ul li .nav-link {
+     text-align: right;
+  }
+}
+
+.absolute-submit{
+  left: 5px;
+}
+.fixed-dots{
+  right: 20px;
+}
+// start of home page ---------------------
+.welcome_home {
+  .number_of_users {
+    .users {
+      img {
+        &:not(:first-of-type) {
+          margin-right: -25px;
+        }
+      }
+    }
+  }
+}
+
+// end of home page ---------------------
+// start of auth page ---------------------
+
+.auth{
+  .shape{
+    right: 0px;
+    clip-path: polygon(0 0, 100% 0, 100% 100%, 17% 100%);
+
+  }
+}
+
+// end of auth page ---------------------
+// start of profile page ---------------------
+.profile{
+  .inner_profile{
+    .video{
+      ul.dots-action{
+        left: 15px;
+      }
+      span:first-of-type{
+        left: 15px;
+      }
+    }
+  }
+}
+@media (min-width: 767px) {
+  .profile {
+    .inner_profile {
+      .info {
+        .row {
+          div {
+            p.end {
+              span:first-of-type {
+                margin-right: 5px;
+              }
+            }
+          }
+        }
+      }
+    }
+  }
+}
+// end of profile page ---------------------
+// start of chat page ---------------------
+
+.chat{
+  .outer{
+    .outer-body{
+      .friends{
+        border-left: 1px solid #dddddd;
+        ul{
+          li{
+            >strong{
+              left: 3px;
+            }
+          }
+        }
+      }
+      .sender{
+        text-align: left;
+      }
+      .receiver{
+        span::before{
+          right: -5px;
+          transform: rotate(-46deg);
+        }
+      }
+    }
+  }
+}
+// end of chat page ---------------------
+
+// start of dashboard index page ---------------------
+.reports{
+  .report{
+    div{
+      &::before{
+        right: -16px;
+        border-left: 8px solid rgba(221, 221, 221, 0.2901960784) !important;
+      }
+    }
+  }
+}
+.dashboard{
+  .dots-action{
+    left: 10px;
+  }
+}
+
+
+// end of dashboard index page ---------------------
+
+@media (max-width: 767px) {
+  .dots-action > li > ul{
+    display: block;
+    width: 90px;
+    left: -20px;
+  }
+  nav{
+    .dots-action > li > ul{
+      left: unset;
+    }
+  }
+}
+
+.up{
+  right: 20px;
+}
+
+.ck.ck-content.ck-editor__editable{
+  text-align: right;
+}

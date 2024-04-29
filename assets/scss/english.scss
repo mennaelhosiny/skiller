@@ -1,0 +1,259 @@
+@import "variables";
+*{
+  direction: ltr;
+}
+
+// edit bootstrap---------
+/*#navbarSupportedContent{
+  flex-direction: row-reverse;
+}*/
+// edit bootstrap---------
+
+// public class-----------------------
+.input-icon{
+  span:first-of-type{
+    right: 10px;
+  }
+}
+.line-hover{
+  &::before{
+    left: 0px;
+  }
+}
+.mrl-half{
+  margin-right: 5px;
+}
+.mrl-reverse-15{
+  margin-left: 15px;
+}
+.mrl-1{
+  margin-right: 1rem;
+}
+.mlr-1{
+  margin-left: 1rem !important;
+}
+.mrl-2{
+  margin-right: 2rem;
+}
+.mrl-3{
+  margin-right: 3rem;
+}
+.related-block{
+  margin-left: -25px;
+}
+.absolute-submit{
+  right: 5px;
+}
+.fixed-dots{
+  left: 20px;
+}
+.variety_data{
+  .one_variety{
+    .value{
+      span.icon:first-of-type{
+        right: 40px;
+      }
+      span.icon:last-of-type{
+        right: 15px;
+      }
+    }
+    .image{
+      .dots-action{
+        right: 5px;
+      }
+    }
+  }
+}
+.item-each-other{
+  span:last-of-type{
+    right: -3px;
+  }
+}
+
+
+.dynamic_tabs{
+  ul{
+    >li{
+      &:not(:last-of-type){
+        border-right: 1px solid #dddddd;
+      }
+    }
+  }
+}
+@media (min-width:767px) and (max-width:992px) {
+  .dynamic_tabs{
+    ul{
+      >li{
+        &:nth-of-type(3){
+          >span{
+            margin-left: 15px;
+          }
+        }
+      }
+    }
+  }
+}
+@media (max-width:767px) {
+  .dynamic_tabs{
+    ul.row{
+      >li{
+        &:not(:first-of-type){
+          >span{
+            margin-left: 15px;
+          }
+        }
+      }
+    }
+  }
+}
+
+
+.input-related-icon{
+  input{
+    padding-left: 25px;
+  }
+}
+
+.border-side{
+  border-right: 2px solid #ddd;
+  padding-right: 15px;
+}
+
+// public class-----------------------
+
+// start of home page ---------------------
+.welcome_home {
+  .number_of_users {
+    .users {
+      img {
+        &:not(:first-of-type) {
+          margin-left: -25px;
+        }
+      }
+    }
+  }
+}
+
+// end of home page ---------------------
+
+// start of auth page ---------------------
+
+.auth{
+  .shape{
+    left: 0px;
+    clip-path: polygon(0 0, 100% 0, 80% 100%, 0% 100%);
+  }
+}
+
+// end of auth page ---------------------
+
+// start of profile page ---------------------
+.profile{
+  .inner_profile{
+    .video{
+      ul.dots-action{
+        right: 15px;
+      }
+      >span:first-of-type{
+        right: 15px;
+      }
+    }
+  }
+}
+@media (min-width: 767px) {
+  .profile {
+    .inner_profile {
+      .info {
+        .row {
+          div {
+            p.end {
+              span:first-of-type {
+                margin-left: 5px;
+              }
+            }
+          }
+        }
+      }
+    }
+  }
+}
+// end of profile page ---------------------
+
+// start of chat page ---------------------
+
+.chat{
+  .outer{
+    .outer-body{
+      .friends{
+        border-right: 1px solid #dddddd;
+        ul{
+          li{
+            >strong{
+              right: 3px;
+            }
+          }
+        }
+      }
+      .chat-info{
+        .chat-header{
+          img{
+            width: 60px;
+          }
+          border-bottom: 1px solid #dddddd;
+        }
+        .sender{
+          text-align: right;
+        }
+        .receiver{
+          span::before{
+            left: -5px;
+            transform: rotate(137deg);
+          }
+        }
+      }
+    }
+  }
+}
+// end of chat page ---------------------
+
+// start of dashboard index page ---------------------
+.reports{
+  .report{
+    div{
+      &::before{
+        left: -16px;
+        border-right: 8px solid rgba(221, 221, 221, 0.2901960784) !important;
+      }
+    }
+  }
+}
+.dashboard{
+  .dots-action{
+    right: 10px;
+  }
+}
+// end of dashboard index page ---------------------
+
+
+@media (max-width: 767px) {
+  .dots-action > li > ul{
+    display: block;
+    width: 90px;
+    right: -20px;
+  }
+  nav{
+    .dots-action > li > ul{
+      right: 0px;
+      left: 0px;
+    }
+  }
+}
+
+
+.up{
+  left: 20px;
+}
+
+.ck.ck-content.ck-editor__editable{
+  text-align: left;
+}

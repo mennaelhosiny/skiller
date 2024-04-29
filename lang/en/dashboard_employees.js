@@ -1,0 +1,20 @@
+export default {
+  dashboard_name:'Supervisors',
+  info:'Supervisor',
+  username:'Username',
+  filter:'Filter',
+  actions:{
+    name:'Actions',
+    add:'Add',
+    edit:'Edit',
+    delete:'Delete',
+    save:'Save',
+    close:'Close',
+  },
+  columns:{
+    username:'Username',
+    email:'Email',
+    password:'Password',
+    phone:'Phone',
+  },
+}
